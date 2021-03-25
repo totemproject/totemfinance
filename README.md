@@ -1,5 +1,6 @@
 **Totem Finance** redefines the concept of yield generation in Decentralized Finance (DeFi). One of the main problems in DeFi protocols is the ridiculously high cost of Gas at Ethereum network. Totem technologies reducing friction of smart-contracts interaction using Non-finguble tokens (NFT).
 Now Users don’t need to spend Gas for Stake, Unstake or for Claim rewards. And dont need to hold ERC20 tokens in the wallet to earn rewards.
+
 *“All you need to get rewards is to be owner of one of the TOTEM. That’s it.”*
 *Saito, dev.*
 
@@ -30,8 +31,8 @@ Max supply 100 TOTEM
 
 ### Links:
 
-[Website] (https://totemfinance.io)
-[Telegram] (https://https://t.me/totemnft)
-[Medium] (https://medium.com/@totemfinance)
-[Twitter] (https://twitter.com/totemfinance)
-[Discord] (https://discord.gg/rub22qG4ve)
+[Website](https://totemfinance.io)
+[Telegram](https://https://t.me/totemnft)
+[Medium](https://medium.com/@totemfinance)
+[Twitter](https://twitter.com/totemfinance)
+[Discord](https://discord.gg/rub22qG4ve)
