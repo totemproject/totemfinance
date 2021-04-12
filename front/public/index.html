@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="keywords" content="Totem, TEM, DeFi, decentralized, opensource, blockchain, smart-contracts, NFT, Non-fungible">
+    <meta name="description" content="Totem NFT. An elegant DeFi (Decentralized Finance) solution reducing friction of smart-contracts interaction using NFT (Non-fungible tokens)" />
+
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <title>Totem. Smart NFT in DeFi</title>
+    <style>
+        .loader-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: #1d1d1d;
+        }
+
+        .loader-text {
+            font-family: sans-serif;
+            color: #fff;
+            margin: 0 auto;
+        }
+
+        .loader-text-wrapper {
+            display: flex;
+            position: relative;
+        }
+
+        .stage {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .dot-elastic,
+        .dot-elastic::before,
+        .dot-elastic::after {
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            background-color: #fff;
+            color: #fff;
+        }
+
+        .dot-elastic {
+            position: relative;
+            animation: dot-elastic 1s infinite linear;
+            right: 70px;
+            top: 9px;
+        }
+
+        .dot-elastic::before,
+        .dot-elastic::after {
+            content: '';
+            display: inline-block;
+            position: absolute;
+            top: 0;
+        }
+
+        .dot-elastic::before {
+            left: -9px;
+            animation: dot-elastic-before 1s infinite linear;
+        }
+
+        .dot-elastic::after {
+            left: 9px;
+            animation: dot-elastic-after 1s infinite linear;
+        }
+
+        @keyframes dot-elastic-before {
+            0% {
+                transform: scale(1, 1);
+            }
+
+            25% {
+                transform: scale(1, 1.5);
+            }
+
+            50% {
+                transform: scale(1, 0.67);
+            }
+
+            75% {
+                transform: scale(1, 1);
+            }
+
+            100% {
+                transform: scale(1, 1);
+            }
+        }
+
+        @keyframes dot-elastic {
+            0% {
+                transform: scale(1, 1);
+            }
+
+            25% {
+                transform: scale(1, 1);
+            }
+
+            50% {
+                transform: scale(1, 1.5);
+            }
+
+            75% {
+                transform: scale(1, 1);
+            }
+
+            100% {
+                transform: scale(1, 1);
+            }
+        }
+
+        @keyframes dot-elastic-after {
+            0% {
+                transform: scale(1, 1);
+            }
+
+            25% {
+                transform: scale(1, 1);
+            }
+
+            50% {
+                transform: scale(1, 0.67);
+            }
+
+            75% {
+                transform: scale(1, 1.5);
+            }
+
+            100% {
+                transform: scale(1, 1);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <div class="loader-container">
+        <div class="stage">
+           
+            <div class="loader-text-wrapper">
+                <span class="loader-text"> loading</span>
+                <div class="dot-elastic"></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
