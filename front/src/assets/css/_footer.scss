@@ -1,0 +1,40 @@
+.footer {
+
+	flex-shrink: 0;
+	background-color: rgba(255,255,255,.05);
+	padding: 12px;
+	display: flex;
+	justify-content: center;
+
+	&__links  {
+
+		display: flex;
+		justify-content: center;
+
+		li {
+
+			margin: 12px;
+
+		}
+
+		a {
+
+			display: block;
+			width: 30px;
+			height: 30px;
+
+			@media #{$desktop} {
+
+				&:hover svg {
+
+					fill: var(--yellow);
+
+				}
+
+			}
+
+		}
+
+	}
+
+}
